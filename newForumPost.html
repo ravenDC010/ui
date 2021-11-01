@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@600&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
+            <div class="row">
+
+                <!-- TOGGLER -->
+                <div class="col-2 d-md-none">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropMenu" aria-controls="dropMenu" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>    
+                </div>
+
+                <!-- BRAND -->
+                <div class="col-2 offset-md-1 col-md-1 d-none d-md-block">
+                    <a class="navbar-brand" href="#" style="margin-left: 10px;"><img src="tu_logo2.png" style=" height:80px; width: 80px"></a>
+                </div>
+
+
+                <!-- MENU -->
+                <div class="col-2 col-md-3" style="padding-top: 1%;">
+                    <!-- <div class="collapse navbar-collapse" id="dropMenu"> -->
+                        <ul class="nav navbar-nav nav-justified collapse navbar-collapse"  id="dropMenu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">COMMUNITIES</a>
+                            </li>
+                        </ul>
+                    <!-- </div> -->
+                </div>
+
+                <!-- SEARCH BAR -->
+                <div class="col-2 col-md-3" style="padding-top: 1%;">
+                    <form>
+                        <input type="search" class="fas form-control text-center" placeholder="&#xf002; Search" style="border-radius: 50px;"> 
+                    </form>
+                </div>
+
+                <!-- PROFILE -->
+                <div class="col-4 col-md-3" style="padding-top: 1%;">
+                    <ul class="nav navbar-nav nav-justified">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-comments fa-lg"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-bell fa-lg"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PROFILE</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+
+            <!-- THREAD -->
+
+            <div class="row">
+                <div class="col-12 col-md-8" style="margin-top: 50px;">   
+                    <!-- CREATE THREAD -->
+                    <a class="btn btn-block btn-primary" role="button" style="width: 100%; margin-bottom: 5%;"><i class="fas fa-pencil-alt"></i> CREATE THREAD</a>
+                 
+                    <div class="row forumPostPrototype shadow">
+                        <div class="card threads col-12 col-md-12">
+                            <div class="card-header">
+                                <div class="row">
+                                    <h5 class="card-title col-12 col-md-8">POST TITLE</h5>
+                                    <button class="btn btn-lg col-12 col-md-4"><span class="badge rounded-pill btn-info">POST TOPIC</span></button>
+                                </div>
+                                <div class="row">
+                                    <h6 class="col-12 col-md-4">POST AUTHOR</h5>                        
+                                    <h6 class=" col-md-4">CREATED</h5>                                
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <p>semi content.
+                                    The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. n can be a number, a keyword, or a formula.Tip: Look at the :nth-of-type() selector to select the element that is the nth child, of a particular type, of its parent.
+                                    The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. n can be a number, a keyword, or a formula.Tip: Look at the :nth-of-type() selector to select the element that is the nth child, of a particular type, of its parent.
+                                </p>
+                                <hr class="rounded" style="margin: 0%;">
+                                <div class="row" style="margin-top: 2%;">
+
+                                    <div class="col-6 col-md-5">
+                                        <input type="checkbox" class="btn-check" id="btn-check1-outlined" autocomplete="off">
+                                        <label class="btn btn-outline-danger" for="btn-check1-outlined"><i class="fas fa-heart fa-lg"></i></label>                                                
+                                        <span>Like count</span>
+                                    </div>
+                                    
+                                    <div class="col-6 col-md-5" style="padding: 10px;">
+                                        <span><i class="fas fa-comment fa-lg"></i> Comment count</span>
+                                    </div>
+                                </div>
+                                <hr class="rounded" style="margin: 0% 0% 1% 0%;">
+                                <div class="row" style="margin-bottom: 1%;">
+                                    <h6 class="col-12 offset-md-1 col-md-5">LOG IN OR REGISTER TO POST COMMENTS</h6>
+                                    <button class="col-12 col-md-2 btn btn-lg btn-primary" role="button">LOG IN</button>
+                                    <button class="col-12 offset-md-1 col-md-2 btn btn-lg btn-primary" role="button">REGISTER</button>
+                                </div>
+                                <hr class="rounded" style="margin: 0% 0% 5% 0%;">
+
+                                <div class="row forumPostCreate">
+                                    <div class="card col-12 col-md-12">
+                                        <div class="card-header row" style="padding-top: 25px;">
+                                            <h5 class="card-title col-12 col-md-8">COMMENT AS (YOUR NAME)</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <form method="POST" action="">
+                                                <div class="form-group">
+                                                    <div class="bg-light">
+                                                        <button class="btn" type="button"><i class="fa fa-bold"></i></button>
+                                                        <button class="btn" type="button"><i class="fa fa-italic"></i></button>
+                                                        <button class="btn" type="button"><i class="far fa-file-image"></i></button>
+            
+                                                    </div>
+                                                    <textarea class="form-control" name="formBody" id="formBody" placeholder="CONTENT" rows="3"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary mt-2">COMMENT</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <!-- post comments-->
+                                <div class="row postComments">
+                                    <div class="card col-12 col-md-12">
+                                        <div class="card-header">
+                                            <div class="row">
+                                                <h6 class="col-12 col-md-4">AUTHOR</h6>
+                                                <h6 class="col-md-4">TIME</h6>        
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            comment goes here
+                                            <br>
+                                            <div class="row" style="margin-top: 2%;">
+                                                <div class="col-6 col-md-5">
+                                                    <input type="checkbox" class="btn-check" id="btn-check2-outlined" autocomplete="off">
+                                                    <label class="btn btn-outline-danger" for="btn-check2-outlined"><i class="fas fa-heart fa-lg"></i></label>                                                
+                                                    <span>Like count</span>
+                                                </div>
+            
+                                                <button class="col-6 col-md-3 btn reply-btn btn-primary mb-2" type="button" onclick="replyToggle()" name="replyButton">REPLY</button>
+                                            </div>
+                                            <div class="row forumPostreply">
+                                                <div class="card col-12 col-md-12">
+                                                    <div class="card-header row" style="padding-top: 25px;">
+                                                        <h5 class="card-title col-12 col-md-8">REPLY AS (YOUR NAME)</h5>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <form method="POST" action="">
+                                                            <div class="form-group">
+                                                                <div class="bg-light">
+                                                                    <button class="btn" type="button"><i class="fa fa-bold"></i></button>
+                                                                    <button class="btn" type="button"><i class="fa fa-italic"></i></button>
+                                                                    <button class="btn" type="button"><i class="far fa-file-image"></i></button>
+                        
+                                                                </div>
+                                                                <textarea class="form-control" name="formBody" id="formBody" placeholder="CONTENT" rows="3"></textarea>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button type="submit" class="btn btn-primary mt-2">REPLY</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                                            <div class="row">
+                                                <div class="card col-12 col-md-12">
+                                                    <div class="card-header">
+                                                        <div class="row">
+                                                            <h6 class="col-12 col-md-4">AUTHOR</h6>
+                                                            <h6 class="col-md-4">TIME</h6>        
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        comment goes here
+                                                        <br>
+                                                        <div class="row" style="margin-top: 2%;">
+                                                            <div class="col-6 col-md-5">
+                                                                <input type="checkbox" class="btn-check" id="btn-check2-outlined" autocomplete="off">
+                                                                <label class="btn btn-outline-danger" for="btn-check2-outlined"><i class="fas fa-heart fa-lg"></i></label>                                                
+                                                                <span>Like count</span>
+                                                            </div>
+                        
+                                                            <button class="col-6 col-md-3 btn reply-btn btn-primary mb-2" type="button" onclick="replyToggle()" name="replyButton">REPLY</button>
+                                                        </div>
+                                                        <div class="row forumPostreply">
+                                                            <div class="card col-12 col-md-12">
+                                                                <div class="card-header row" style="padding-top: 25px;">
+                                                                    <h5 class="card-title col-12 col-md-8">REPLY AS (YOUR NAME)</h5>
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    <form method="POST" action="">
+                                                                        <div class="form-group">
+                                                                            <div class="bg-light">
+                                                                                <button class="btn" type="button"><i class="fa fa-bold"></i></button>
+                                                                                <button class="btn" type="button"><i class="fa fa-italic"></i></button>
+                                                                                <button class="btn" type="button"><i class="far fa-file-image"></i></button>
+                                    
+                                                                            </div>
+                                                                            <textarea class="form-control" name="formBody" id="formBody" placeholder="CONTENT" rows="3"></textarea>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <button type="submit" class="btn btn-primary mt-2">REPLY</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="card col-12 col-md-12">
+                                                                <div class="card-header">
+                                                                    <div class="row">
+                                                                        <h6 class="col-12 col-md-4">AUTHOR</h6>
+                                                                        <h6 class="col-md-4">TIME</h6>        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-body">
+                                                                    comment goes here
+                                                                    <br>
+                                                                    <div class="row" style="margin-top: 2%;">
+                                                                        <div class="col-6 col-md-5">
+                                                                            <input type="checkbox" class="btn-check" id="btn-check2-outlined" autocomplete="off">
+                                                                            <label class="btn btn-outline-danger" for="btn-check2-outlined"><i class="fas fa-heart fa-lg"></i></label>                                                
+                                                                            <span>Like count</span>
+                                                                        </div>
+                                    
+                                                                        <button class="col-6 col-md-3 btn reply-btn btn-primary mb-2" type="button" onclick="replyToggle()" name="replyButton">REPLY</button>
+                        
+                                                                    </div>
+                                                                    <div class="row forumPostreply">
+                                                                        <div class="card col-12 col-md-12">
+                                                                            <div class="card-header row" style="padding-top: 25px;">
+                                                                                <h5 class="card-title col-12 col-md-8">REPLY AS (YOUR NAME)</h5>
+                                                                            </div>
+                                                                            <div class="card-body">
+                                                                                <form method="POST" action="">
+                                                                                    <div class="form-group">
+                                                                                        <div class="bg-light">
+                                                                                            <button class="btn" type="button"><i class="fa fa-bold"></i></button>
+                                                                                            <button class="btn" type="button"><i class="fa fa-italic"></i></button>
+                                                                                            <button class="btn" type="button"><i class="far fa-file-image"></i></button>
+                                                
+                                                                                        </div>
+                                                                                        <textarea class="form-control" name="formBody" id="formBody" placeholder="CONTENT" rows="3"></textarea>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <button type="submit" class="btn btn-primary mt-2">REPLY</button>
+                                                                                    </div>
+                                                                                </form>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row postComments">
+                                    <div class="card col-12 col-md-12">
+                                        <div class="card-header">
+                                            <div class="row">
+                                                <h6 class="col-12 col-md-4">AUTHOR</h6>
+                                                <h6 class="col-md-4">TIME</h6>        
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            comment goes here
+                                            <br>
+                                            <div class="row" style="margin-top: 2%;">
+                                                <div class="col-6 col-md-5">
+                                                    <input type="checkbox" class="btn-check" id="btn-check2-outlined" autocomplete="off">
+                                                    <label class="btn btn-outline-danger" for="btn-check2-outlined"><i class="fas fa-heart fa-lg"></i></label>                                                
+                                                    <span>Like count</span>
+                                                </div>
+            
+                                                <button class="col-6 col-md-3 btn reply-btn btn-primary mb-2" type="button" onclick="replyToggle()" name="replyButton">REPLY</button>
+
+                                            </div>
+                                            <div class="row forumPostreply">
+                                                <div class="card col-12 col-md-12">
+                                                    <div class="card-header row" style="padding-top: 25px;">
+                                                        <h5 class="card-title col-12 col-md-8">REPLY AS (YOUR NAME)</h5>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <form method="POST" action="">
+                                                            <div class="form-group">
+                                                                <div class="bg-light">
+                                                                    <button class="btn" type="button"><i class="fa fa-bold"></i></button>
+                                                                    <button class="btn" type="button"><i class="fa fa-italic"></i></button>
+                                                                    <button class="btn" type="button"><i class="far fa-file-image"></i></button>
+                        
+                                                                </div>
+                                                                <textarea class="form-control" name="formBody" id="formBody" placeholder="CONTENT" rows="3"></textarea>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <button type="submit" class="btn btn-primary mt-2">REPLY</button>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="offset-md-1 col-md-3" style="margin-top: 50px;">
+
+                    <!-- COMMUNITIES  -->
+                    
+                    <a class="btn btn-block btn-secondary" role="button" style="width: 100%; margin-bottom: 10%;"><i class="fas fa-warehouse"></i> VIEW COMMUNITIES </a>
+
+                    <!-- TRENDING COMMUNITIES -->
+                    <div class="card">
+                        <div class="card-header bg-danger">
+                            <h5 class="card-title" style="color: whitesmoke;"><i class="fab fa-hotjar"></i> TREDING TOPIC</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action">TOPIC 1</a>
+                                <a href="#" class="list-group-item list-group-item-action">TOPIC 2</a>
+                                <a href="#" class="list-group-item list-group-item-action">TOPIC 3</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    
+            </div>
+
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script>
+            function replyToggle(){
+                var elmt=event.srcElement.parentElement.parentElement.children;
+                if(elmt[2].style.display=="none"){
+                    elmt[2].style.display="block";
+                }
+                else{
+                    elmt[2].style.display="none";
+                }
+            }
+
+        </script>
+    </body>
+
+</html>
